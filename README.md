@@ -99,7 +99,7 @@ public void setSearchButtonDrawableRes(@DrawableRes int resId)
 <br>
 <br>
 ## 10.溢出菜单自定义样式
-增加了样式：ActionModeTP,SpinnerTP,ContextPopupMenuTP分别用于不同类型的溢出菜单，应用替换即可。或者指定android:popupBackground属性为@drawable/spinner_background_roundrect_tp。
+增加了样式：@style/ActionModeTP,@style/SpinnerTP,@style/ContextPopupMenuTP分别用于不同类型的溢出菜单，应用替换即可。或者指定android:popupBackground属性为@drawable/spinner_background_roundrect_tp。
 <br>
 <br>
 ## 11. 标题栏图标一致性
@@ -109,3 +109,6 @@ public void setSearchButtonDrawableRes(@DrawableRes int resId)
 <item name="android:actionModeCloseDrawable">@drawable/ic_ab_back_material</item>
 <item name="android:actionOverflowButtonStyle">@style/ActionBarOverflowCloseDrawableStyleTP</item>
 ```
+## 12.ProgressDialogTP
+删除setTPMode接口，将原先的ProgressDialog替换成ProgressDialogTP即可。
+<br>
