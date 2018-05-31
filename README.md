@@ -122,8 +122,9 @@ public void setSearchButtonDrawableRes(@DrawableRes int resId)
 
 ### 3.EditTextPreferenceTP
 新增EditTextPreferenceTP，直接替换EditTextPreference即可。
-
-
+<br>
+<br>
+<br>
 ## 其余一致性
 
 ### 1.滚动条一致性(含有ListView，RecyclerView等滚动属性的界面
